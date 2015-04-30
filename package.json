@@ -20,11 +20,5 @@
     "events": "component-events",
     "value": "component-value"
   },
-  "development": {
-    "component/assert": "*"
-  },
-  "scripts": ["lib/index.js"],
-  "styles": ["lib/index.css"],
-  "templates": ["lib/index.html"],
   "main": "lib/index.js"
 }
