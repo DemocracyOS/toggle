@@ -28,5 +28,6 @@
   "browserify": {
     "transform": ["stringify"]
   },
+  "style": "lib/index.css",
   "main": "lib/index.js"
 }
