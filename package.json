@@ -1,6 +1,6 @@
 {
-  "name": "toggle",
-  "repo": "slifszyc/toggle",
+  "name": "democracyos-toggle",
+  "repo": "DemocracyOS/toggle",
   "license": "MIT",
   "version": "0.1.0",
   "description": "A toggle UI element.",
@@ -15,15 +15,17 @@
     "component-events": "1.0.9",
     "component-value": "1.1.0",
     "domify": "^1.3.3",
-    "prevent": "git://github.com/slifszyc/prevent",
-    "stop": "git://github.com/slifszyc/stop",
+    "democracyos-prevent": "^0.0.2",
+    "democracyos-stop": "^0.0.2",
     "stringify": "^3.1.0"
   },
   "browser": {
     "classes": "component-classes",
     "emitter": "component-emitter",
     "events": "component-events",
-    "value": "component-value"
+    "value": "component-value",
+    "prevent": "democracyos-prevent",
+    "stop": "democracyos-stop"
   },
   "browserify": {
     "transform": ["stringify"]
